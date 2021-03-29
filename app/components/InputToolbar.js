@@ -87,6 +87,7 @@ const styles = StyleSheet.create({
     color: COLORS.light,
     paddingHorizontal: 10,
     fontSize: 15,
+    maxHeight: Platform.OS === 'android' ? 45 : 'auto'
   },
 });
 
